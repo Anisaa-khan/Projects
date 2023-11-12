@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+background-image: url(https://media.istockphoto.com/id/1159836464/fr/photo/int%C3%A9rieur-moderne-de-maison-int%C3%A9rieur-avec-cuisine-noire-nuit-%C3%A9clairage-du-soir-rendu-3d.jpg?s=170667a&w=0&k=20&c=Crallfy8w6cCwIL0Y8lONo-2pGFZb4Be1hgIWgM5gu4=);
+background-repeat: no-repeat;
+background-position: top right;
+background-size: cover;
+  
+}
+div h1{
+   margin:0 300px;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   color: white;
+   font-size: 40px;
+
+}
+nav{
+    /* background-color: rgb(60, 71, 80); */
+    display: flex;
+    align-items: center;
+    color: white;
+    min-height: 8vh;
+    justify-content: space-around;
+    font-family: 'montserrat' sans-serif;
+    font-size: 16px;
+
+}
+nav ul{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    list-style: none;
+
+}
+nav ul li a{
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+nav ul li a:hover{
+    background-color: skyblue;
+}
+.heading{
+    font-size: 40px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding:400px 600px ;
+    
+}
+.heading h1{
+    font-size: 30px;
+    letter-spacing: 0px;
+    
+}
+.text{
+    font-size: 30px;
+    padding: 90px;
+    font-family: 'Helvetica', sans-serif ;
+}
+.text1{
+    font-size: 25px;
+    padding: 130px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.text2{
+    font-size: 25px;
+    align-content: center;
+    padding: 200px;
+    font-family: 'Helvetica', sans-serif;
+}
+button{
+    padding: 20PX 30PX;
+    border: 1PX solid white;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    margin:5px 165px;
+    font-family: 'Helvetica', sans-serif;
+}
+button:hover{
+    background-color: skyblue;
+}

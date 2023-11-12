@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.main{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://us.123rf.com/450wm/golfmerrymaker/golfmerrymaker2309/golfmerrymaker230900410/212454673-blurred-restaurant-background-with-some-people-eating-and-chefs-and-waiters-working-generative-ai.jpg?ver=6);
+   background-size: cover;
+   background-position: center;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 20px auto;
+    padding: 35px 0;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding:20px 15px;
+}
+.navbar .icons ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .icons ul li{
+    display: inline-block;
+    margin-left: 60px;
+  
+    list-style: none;
+  float: right;
+ 
+
+}
+.navbar .icons ul li a{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: black;
+    font-family: sans-serif;
+}
+.heading{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    padding: 8px 20px;
+  
+}

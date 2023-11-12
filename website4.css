@@ -1,0 +1,65 @@
+
+section{
+   height: 100vh;
+    background-image: url(https://www.shutterstock.com/image-photo/beverage-background-hot-coffee-tea-260nw-1532204195.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+color: #fff;
+margin-top: 35px;
+font-size: 35px;
+font-family: sans-serif;
+letter-spacing: 2px;
+margin-left: 60px;
+}
+.nav-links ul li{
+display: inline-block;
+margin: 30px 30px;
+text-decoration: none;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'roboto';
+}
+.headings{
+    
+    width: 40%;
+    margin-left:60px;
+    margin-top: 15%;
+}
+.headings h1{
+    color: #fff;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+padding-bottom: 0px;
+}
+.headings p{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: roboto;
+    font-weight: lighter;
+    margin-top: -30px;}
+
+button{
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+   font-size: 18px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    font-weight: 40px;
+}
+
